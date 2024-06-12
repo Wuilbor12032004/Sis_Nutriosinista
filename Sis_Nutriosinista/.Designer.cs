@@ -1,6 +1,6 @@
 ﻿namespace Sis_Nutriosinista
 {
-    partial class Form_Iniciodeseccion
+    partial class Iniciodeseccion
     {
         /// <summary>
         ///  Required designer variable.
@@ -11,14 +11,7 @@
         ///  Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
-                components.Dispose();
-            }
-            base.Dispose(disposing);
-        }
+       
 
         #region Windows Form Designer generated code
 
@@ -36,8 +29,7 @@
             buttoninicio = new Button();
             pictureBox1 = new PictureBox();
             label3 = new Label();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            SuspendLayout();
+           ;
             // 
             // label1
             // 
@@ -50,7 +42,7 @@
             label1.TabIndex = 0;
             label1.Text = "SIS_NUTRISIONISTA";
             label1.TextAlign = ContentAlignment.MiddleCenter;
-            label1.Click += label1_Click;
+           
             // 
             // labelUsuario
             // 
@@ -62,7 +54,7 @@
             labelUsuario.Size = new Size(66, 16);
             labelUsuario.TabIndex = 1;
             labelUsuario.Text = "Usuario:";
-            labelUsuario.Click += label2_Click;
+           
             // 
             // label2
             // 
@@ -81,15 +73,14 @@
             textBoxUsuario.Name = "textBoxUsuario";
             textBoxUsuario.Size = new Size(135, 23);
             textBoxUsuario.TabIndex = 3;
-            textBoxUsuario.TextChanged += textBoxUsuario_TextChanged;
+           
             // 
             // textBoxContraseña
             // 
             textBoxContraseña.Location = new Point(215, 167);
             textBoxContraseña.Name = "textBoxContraseña";
             textBoxContraseña.Size = new Size(135, 23);
-            textBoxContraseña.TabIndex = 4;
-            textBoxContraseña.TextChanged += textBoxContraseña_TextChanged;
+            
             // 
             // buttoninicio
             // 
@@ -101,7 +92,7 @@
             buttoninicio.TabIndex = 6;
             buttoninicio.Text = "Inicio";
             buttoninicio.UseVisualStyleBackColor = true;
-            buttoninicio.Click += buttoninicio_Click;
+            
             // 
             // pictureBox1
             // 
@@ -124,30 +115,9 @@
             label3.Size = new Size(277, 19);
             label3.TabIndex = 8;
             label3.Text = "\"Una buena nutrición es clave para el bienestar total.\"";
-            label3.Click += label3_Click;
+            
             // 
-            // Form_Iniciodeseccion
-            // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.MistyRose;
-            ClientSize = new Size(429, 293);
-            Controls.Add(label3);
-            Controls.Add(pictureBox1);
-            Controls.Add(buttoninicio);
-            Controls.Add(textBoxContraseña);
-            Controls.Add(textBoxUsuario);
-            Controls.Add(label2);
-            Controls.Add(labelUsuario);
-            Controls.Add(label1);
-            FormBorderStyle = FormBorderStyle.FixedToolWindow;
-            Name = "Form_Iniciodeseccion";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "Inicio";
-            Load += Form1_Load;
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ResumeLayout(false);
-            PerformLayout();
+            
         }
 
         #endregion

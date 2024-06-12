@@ -1,7 +1,7 @@
 ﻿namespace Sis_Nutriosinista;
 
     
-    partial class Menu
+    partial class FrmMenu
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
     /// </summary>
     private void InitializeComponent()
     {
-        System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
+        System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMenu));
         panel1 = new Panel();
         Menuvertical = new Panel();
         button5 = new Button();
@@ -181,13 +181,13 @@
         // panelContenedor
         // 
         panelContenedor.Dock = DockStyle.Bottom;
-        panelContenedor.Location = new Point(145, 28);
+        panelContenedor.Location = new Point(145, 113);
         panelContenedor.Name = "panelContenedor";
-        panelContenedor.Size = new Size(455, 322);
+        panelContenedor.Size = new Size(455, 237);
         panelContenedor.TabIndex = 3;
         panelContenedor.Paint += panelContenedor_Paint_1;
         // 
-        // Menu
+        // FrmMenu
         // 
         AutoScaleDimensions = new SizeF(7F, 15F);
         AutoScaleMode = AutoScaleMode.Font;
@@ -197,7 +197,7 @@
         Controls.Add(Menuvertical);
         Controls.Add(panel1);
         FormBorderStyle = FormBorderStyle.None;
-        Name = "Menu";
+        Name = "FrmMenu";
         Text = "Menu";
         Menuvertical.ResumeLayout(false);
         Menuvertical.PerformLayout();

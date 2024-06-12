@@ -17,7 +17,7 @@ namespace Sis_Nutriosinista
 
 
 
-    public partial class Menu : Form
+    public partial class FrmMenu : Form
     {
         private bool isUserRegistered = false;
         private bool isUserLoggedIn = false;
@@ -25,7 +25,7 @@ namespace Sis_Nutriosinista
 
 
 
-        public Menu()
+        public FrmMenu()
         {
             
 
@@ -79,20 +79,7 @@ namespace Sis_Nutriosinista
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form_Iniciodeseccion inicio = new Form_Iniciodeseccion();
-
-
-            inicio.TopLevel = false;
-            inicio.FormBorderStyle = FormBorderStyle.None;
-            inicio.Dock = DockStyle.Fill;
-
-
-            panelContenedor.Controls.Clear();
-            panelContenedor.Controls.Add(inicio);
-
-            inicio.Show();
-
-
+            
 
         }
 
